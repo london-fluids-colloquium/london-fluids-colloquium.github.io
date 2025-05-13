@@ -76,6 +76,7 @@ a:hover{text-decoration:underline}
 .main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{margin-top:2rem;margin-bottom:1rem;font-weight:normal;color:#159957}
 .main-content p{margin-bottom:1em}
 .main-content ul,.main-content ol{margin-top:0}
+td,th{padding:0.5em}
 	</style>
 	
 	<head>
@@ -117,9 +118,34 @@ a:hover{text-decoration:underline}
 
 <h2>Upcoming colloquium</h2>
 
-<p>The next colloquium will be held at <strong>UCL, Friday 23rd May 2025 2-4pm</strong>, followed by refreshments.</p>
+<p>The next colloquium will be held at <strong>UCL, Friday 23rd May 2025 2pm</strong>.</p>
 
-<p><strong>Seminar speaker</strong>:</p>
+<table>
+<tr>
+<th>2:05-2:30pm</th>
+<td><strong>Beth Clarke</strong> (Department of Mathematics, Imperial College London),
+<em>Using structural anisotropy to stabilise asymmetric beating in instability driven filaments</em>
+</td>
+</tr>
+<tr>
+<th>2:30-2:55pm</th>
+<td><strong>Anna Curran</strong> (Department of Mathematics, Imperial College London),
+<em>A theoretical study of the regularisation of stagnant caps of surfactant</em>
+</td>
+</tr>
+<tr>
+<th>3:00-3:50pm</th>
+<td><strong>Matthew Juniper</strong> (Department of Engineering, University of Cambridge),
+<em>Information flows: probability, inference, and information in fluid mechanics.</em>
+</td>
+</tr>
+<tr>
+<th>4:00-5:00pm</th>
+<td>Discussions over refreshments</td>
+</tr>
+</table>
+
+<p><strong>Seminar speaker abstract</strong>:</p>
 
 <p>Matthew Juniper (Department of Engineering, University of Cambridge)
 <br>
@@ -132,34 +158,9 @@ Abstract: John von Neumann is often quoted as saying "with four parameters I can
 <p>
 In this talk, I will show that von Neumann's quote is more nuanced than it sounds. I will then frame a response within a Bayesian framework, in which physical principles such as conservation of mass, momentum, and energy are treated as high quality prior information, with quantified uncertainty, expressed as PDEs or low order models. The information content of relevant data can then be quantified and the likelihood of different candidate models can be compared after the data arrives. I will show how Bayesian inference becomes computationally tractable in fluid mechancis when combined with adjoint methods. I will demonstrate this through assimilation of 3D Flow-MRI data in complex geometry into Finite Element CFD. The main message of the talk is "keep the physics in the model if you can."
 </p>
-
-<p>Bio: Matthew Juniper is Professor of Thermofluid Mechanics at the University of Cambridge. His research interests are flow instability, adjoint-based sensitivity analysis, shape optimization, and physics-based Bayesian inference, particularly when accelerated with adjoint codes. He is PI of the UK Fluids Network and the Hub for EPSRC's National Fellowships in Fluid Dynamics. 
-
+<p>
+Bio: Matthew Juniper is Professor of Thermofluid Mechanics at the University of Cambridge. His research interests are flow instability, adjoint-based sensitivity analysis, shape optimization, and physics-based Bayesian inference, particularly when accelerated with adjoint codes. He is PI of the UK Fluids Network and the Hub for EPSRC's National Fellowships in Fluid Dynamics. 
 </p>
-
-<script>
-  const abstract = document.getElementById('abstract');
-  const toggle = document.getElementById('toggle');
-
-  toggle.addEventListener('click', () => {
-    abstract.classList.toggle('expanded');
-    toggle.textContent = abstract.classList.contains('expanded') ? 'Hide abstract:' : 'Show abstract:';
-  });
-</script>
-
-<p><strong>Early career speakers</strong>:</p>
-
-<p>Beth Clarke (Department of Mathematics, Imperial College London)
-<br>
-<em>Using structural anisotropy to stabilise asymmetric beating in instability driven filaments</em>
-</p>
-
-<p>Anna Curran (Department of Mathematics, Imperial College London)
-<br>
-<em>A theoretical study of the regularisation of stagnant caps of surfactant</em>
-</p>
-
-<p>The agenda will be available nearer the date.</p>
 
 <p><strong>Location</strong></p>
 
